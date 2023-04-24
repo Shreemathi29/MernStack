@@ -1,0 +1,34 @@
+1)Find the number of Students in each college.
+
+select COUNT(Student_name) as no_of_students from student.student_master
+group by college_code having COUNT(Student_name);
+
+
+2)Find the number of students enrolled in each course, college wise
+
+select COUNT(Student_name) 
+ from student.student_master
+group by Course_code having COUNT(Student_name)
+order by College_code;
+
+3) Find the number of students enrolled in each college, genderwise
+
+select COUNT(Student_name) 
+ from student.student_master
+ group by Gender having COUNT(Student_name)
+;
+
+
+4)The list of students who have passed. (scored above 70 in each of the subjects)
+
+select count(*) from student.mark_master where Sub_1=70 and Sub_2=70 and
+Sub_3=70 and Sub_4=70;
+
+select * from student.mark_master where Sub_1=70 and Sub_2=70 and
+Sub_3=70 and Sub_4=70;
+
+select * from student.mark_master where Sub_1 >= 70 and Sub_2 >= 70 and
+Sub_3 >= 70 and Sub_4 >= 70;
+
+5) Among the passed students, find the topper in each course, collegewise
+

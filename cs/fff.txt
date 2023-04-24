@@ -1,0 +1,57 @@
+Construct a python program that accepts the items of tuples 
+containing the category as the first entry and different components of the category
+ along with their costs as the following entries. The job is to create a tuple which
+ summarizes the costs for each category. [CO1] [L2]
+Sample workout as given below:
+
+
+Input:
+2     //No of tuples
+7     //No of items in 1st tuple
+Education    //Items  in the 1st tuple  Category
+Primary     // Component
+50              //Cost
+Secondary
+25
+Higher
+20
+7            //No of items in 2nd tuple
+Defense      //Items in the 2nd tuple     Category
+Army        //Component
+25             //Cost
+AirForce
+40
+Navy
+45
+ 
+Output:
+((Education, 95), (Defense, 110))
+Pseudo Code:
+1) Input the number of categories, referred by variable n
+2) Initialize list t, i.e t=[]
+3) Run a for loop in the range n( 0 to n-1 ):
+3.1) Input the number of components, referred by variable m
+3.2) Input the category name. Let s refer to it.
+3.3)Assign cost with value 0
+3.4)Run a for loop in range of (m-1)//2 (0 to (m-1)//2) :
+3.4.1) Input component name
+3.4.2)Input component price
+3.4.3) Increment cost by component price
+3.5) Create a tuple with the two elements as component name and cost
+3.6) Append this tuple to list t
+4) Display t
+
+
+
+
+
+
+
+
+Construct a python program to read the three subjects
+
+ marks secured by n students during the FAT examination. 
+If a student secured less than 50 in any subject, the student is 
+failed in that subject. Count the number of students who failed in 
+each subject and the total
+ number of students who failed in at least one subject

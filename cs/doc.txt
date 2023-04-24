@@ -1,0 +1,154 @@
+[10:13 AM] KUMAR K
+    Built-in Topics
+help( "intro" ) – What is Python? Read this first!
+help( "keywords" ) – What are the keywords?
+help( "syntax" ) – What is the overall syntax?
+help( "operators" ) – What operators are available?
+help( "builtins" ) – What functions, types, etc. are built-in?
+help( "modules" ) – What modules are in the standard library?
+help( "copyright" ) – Who owns Python?
+help( "moreinfo" ) – Where is there more information?
+help( "changes" ) – What changed in Python 2.0?
+help( "extensions" ) – What extensions are installed?
+help( "faq" ) – What questions are frequently asked?
+help( "ack" ) – Who has done work on Python lately?
+<https://teams.microsoft.com/l/message/19:Ii30RoKHrYnsV_qKSrmcajTL2_OSBKIxttm77TpPE9Y1@thread.tacv2/1667277828629?tenantId=d4963ce2-af94-4122-95a9-644e8b01624d&amp;groupId=9079049e-759c-43ac-ab01-20c530f766c8&amp;parentMessageId=1667277481633&amp;teamName=DT3 training&amp;channelName=General&amp;createdTime=1667277828629&amp;allowXTenantAccess=false>​[10:44 AM] KUMAR K
+    
+ 
+
+
+Date
+time
+online/offline
+topics to be covered
+number of lecture hours
+Number of hours for assignment/Self preparation
+
+31-Oct-22
+2:15 to 4:30 PM
+Offline
+Install Python3 - Create Virtual Environment - Install Packages - Install and Configure Visual Code – Statement - Homework
+2.5
+Preparation before Session - 2Hrs
+Workouts for the session - 2 Hrs
+
+1-Nov-22
+9 - 11:30AM
+Offline
+Basic Python Programming - conditional, variables, loops, developer perspective of coding - Sample Exercise(Handson)
+2.5
+Assessment - Moodle - Day1 -30Mins ,
+Practice exercise Day2 - 3Hours
+Assessment - Moodle - Day2 - 1Hr.
+
+2-Nov-22
+2-5PM
+Online
+Data Structure-List-Tuple-Dictionary - sets -Modules-Functions
+3
+Assessment-Moodle-ProblemSolving - 9 to 10AM
+Self preparation of different inbuilt functions related to data structure - 2 Hours
+Assessment-Quiz on Day3-30Mins
+
+3-Nov-22
+09-11AM ,12-1pm
+Online
+Problem Solving skills - File Systems
+3
+Assessment-Moodle-Day4-1Hr
+Self preparation of problem-solving -2Hr
+
+4-Nov-22
+10-12noon &2-3PM
+Online
+Packages and its uses
+3
+Assessment - Moodle - Day4-30Mins ,
+new package installation and access functions - 3Hours
+
+5-Nov-22
+12-1PM
+Online
+Review the individual assessment
+1
+Moodle-Coderunner activity -reviewed
+
+6-Nov-22
+ 
+ 
+ 
+ 
+ 
+
+7-Nov-22
+2:15 to 4:30 PM
+Online
+Installing Fast API - Create Simple API - API Documentation - Case study
+2.5
+Review Assessment-Problem Solving in moodle - 9 to 10AM
+Self preparation about github and place all programs - push pull via visual code -12-1PM
+
+8-Nov-22
+9 - 11:30AM
+3.30 to 5PM
+Online
+Path Parameters - Query Parameters - Form Data - Case Study
+4
+Demonstrate one case study sample - each has to present it 15mins
+Preparation for demo - 2Hrs
+
+9-Nov-22
+2-5PM
+Online
+Database Connectivity – MongoDB – PostgresDB
+3
+selfpreparation about NoSQL/RDBMS -3Hrs
+Moodle Quiz to assess the individuals - 1Hr
+
+10-Nov-22
+09-11AM ,12-1pm
+Online
+API Authentication - OAuth2 - JWT Token - Case study
+3
+ Preparation and Demonstration of case
+ study by individuals 3Hr
+
+11-Nov-22
+10-12noon &2-3PM
+Online
+Create Class and Object - The init method - Class Inheritance - Data Hiding (Encapsulation) - Creating a Model Class
+3
+Assessment-Moodle-1Hr
+Selfpreparation of problem solving using class -2Hr
+
+12-Nov-22
+11:30-1PM
+Offline
+Review the individual assessment
+1.5
+Feedback and confidence level of developer.
+
+13-Nov-22
+ 
+ 
+ 
+ 
+ 
+
+
+Draft Schedule of Backend
+
+​[12:48 PM] KUMAR K
+    
+Beginners program projects
+Day2 (Level1 ,2 can be considered)
+https://github.com/zhiwehu/Python-programming-exercises/blob/master/100%2B%20Python%20challenging%20programming%20exercises.txt
+
+
+https://github.com/milaan9/90_Python_Examples
+Day7:
+https://github.com/Harsh151200/Beginner-Python-Projects/blob/main/count-vowels.py
+
+
+
+<https://teams.microsoft.com/l/message/19:Ii30RoKHrYnsV_qKSrmcajTL2_OSBKIxttm77TpPE9Y1@thread.tacv2/1667279673499?tenantId=d4963ce2-af94-4122-95a9-644e8b01624d&amp;groupId=9079049e-759c-43ac-ab01-20c530f766c8&amp;parentMessageId=1667279673499&amp;teamName=DT3 training&amp;channelName=General&amp;createdTime=1667279673499&amp;allowXTenantAccess=false>

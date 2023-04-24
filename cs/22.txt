@@ -1,0 +1,15 @@
+
+<br><i class="fa fa-facebook"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-instagram"></i>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<i class="fa fa-linkedin"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-twitter"></i>
+
+
+.nav-item{
+color:purple;
+font-size:18px;
+font-family:sans-serif;
+font-weight:bold;
+padding:10px;
+padding:right-top;
+display:flex;
+}
