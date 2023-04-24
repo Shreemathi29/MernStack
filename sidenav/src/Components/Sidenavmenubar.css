@@ -1,0 +1,119 @@
+a{
+    color: black;
+}
+
+.side-nav{
+    box-shadow: 0 2px 4px rgba(0,0,0,0.7);
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 100vh;
+}
+
+input#menu{
+    display: none;
+}
+
+.icon{
+    display: block;
+    height: 24px;
+    width: 24px;
+    padding: 16px;
+    z-index: 200;
+    cursor: pointer;
+}
+
+.icon .menu,.icon .menu::before, .icon .menu::after{
+    background-color: #00253d;
+    content: '';
+    height: 2px;
+    width: 20px;
+    position: absolute;
+    transition: background-color ease .3s,top ease .3s .3s,transform ease .3s;
+}
+
+.icon .menu{
+    left: 18px;
+    top: 27px;
+}
+
+.icon .menu::before{
+    top: -6px;
+}
+
+.icon .menu::after{
+    top: 6px;
+}
+
+.icon:hover .menu,.icon:hover .menu::before , .icon:hover .menu::after{
+    background-color: blue;
+}
+
+#menu:checked + .icon .menu{
+    background: transparent;
+}
+
+#menu:checked + .icon .menu::before{
+    transform: rotate(45deg);
+}
+
+#menu:checked + .icon .menu::after{
+    transform: rotate(-45deg);
+}
+
+#menu:checked + .icon .menu::before,#menu:checked + .icon .menu::after{
+    top: 0;
+    transition: top ease .3s, transform ease .3s .3s;
+}
+
+nav{
+    padding-top: 60px;
+    transition: width ease .6s;
+    width: 60px;
+    z-index: 100;
+    overflow: hidden;
+}
+
+#menu:checked ~ nav{
+    width: 200px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav li{
+    line-height: 60px;
+    padding-left: 16px;
+    transition: all .3s;
+    white-space: nowrap;
+    border-bottom: .8px solid black;
+}
+nav li:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: #fff;
+}
+
+.menu-text{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width : 480px){
+    .icon{
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    nav{
+        width: 0px;
+    }
+    #menu:checked ~ nav{
+        width: 60px;
+    }
+}
+
+.icons{
+    transform: translateY(5px);
+}
