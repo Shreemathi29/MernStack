@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+DIGITAL ANIMATION
+</title>
+<style>
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'poppins', sans-serif;
+}
+
+.hero{
+width: 100%;
+height: 100vh;
+
+position: relative;
+padding: 0 5%;
+display: flex;
+align-item: center;
+justify-content: center;
+}
+
+nav{
+width: 100%;
+position: absolute;
+top: 0;
+left: 0;
+padding: 20px 8%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+nav .logo{
+width: 180px;
+height: 180px;
+}
+
+.dropdown{
+display: flex;
+justify-content: center;
+list-style-type: none;
+}
+
+a{
+display: block;
+width: 200px;
+color: white;
+padding: 10px 0px;
+text-decoration: none;
+text-align: center;
+text-transform: uppercase;
+letter-spacing: 2px;
+transition: 0.2s;
+}
+
+a:hover{
+background-color: skyblue;
+letter-spacing: 6px;
+}
+
+.projects{
+list-style-type: none;
+display: none;
+}
+
+.dropdown li:nth-child(2):hover .projects{
+display: block;
+}
+
+.webdevelopment{
+list-style-type: none;
+transform: translateX(200px);
+position: absolute;
+display: none;
+}
+.projects li:nth-child(2):hover .webdevelopment{
+display: block;
+}
+
+.content{
+text-align: down;
+}
+.content h1{
+font-size: 100px;
+color: #fff;
+font-weight: 600;
+}
+.content h2{
+font-size: 80px;
+color: #fff;
+font-weight: 500;
+}
+.content h3{
+font-size: 30px;
+color: #fff;
+font-weight: 300;
+}
+
+.content a{
+display: inline-block;
+font-size: 1em;
+background: white;
+padding: 10px 30px;
+text-decoration: none;
+color: black;
+margin-top: 10px;
+text-transform: uppercase;
+letter-spacing: 2px;
+transition: 0.2s;
+}
+
+.content a:hover {
+letter-spacing: 6px;
+}
+
+.content a:hover{
+letter-spacing: 10px;
+}
+
+.back-video{
+position: absolute;
+right:0;
+bottom: 0;
+z-index: -2;
+}
+
+.overlay{
+position: absolute;
+right: 0;
+left: 0;
+object-fit: cover;
+width: 100%;
+height: 100%;
+background: green;
+mix-blend-mode: overlay;
+}
+
+@media (min-aspect-ratio: 16/9){
+.back-video{
+width: 100%;
+heigth: auto;
+}
+}
+
+@media (max-aspect-ratio: 16/9){
+.back-video{
+width: auto;
+heigth: 100%;
+}
+}
+
+
+
+</style>
+</head>
+
+<body>
+
+<div class="hero">
+
+<video autoplay loop muted plays-inline class="back-video">
+<source src="https://player.vimeo.com/external/409804701.hd.mp4?s=46b2e84138cea41276818235db53fce6b16a18e4&profile_id=174">
+</video>
+
+<div class="overlay"></div>
+
+<nav>
+<img src="C:\Users\Lenovo\Downloads\DT3_Logo (2).png" class="logo">
+
+<div class="container">
+<ul class="dropdown">
+<li><a href="#">HOME</a></li>
+<li><a href="#">PROJECTS</a>
+
+<ul class="projects">
+<li><a href="https://sonubabut.github.io/awshtml/aws.html">AWS</a></li>
+<li><a href="#">WEB DEVELOPMENT</a>
+
+<ul class="webdevelopment">
+<li><a href="https://sonubabut.github.io/CV/CV?classId=9079049e-759c-43ac-ab01-20c530f766c8&assignmentId=057ada54-e87f-4a0d-9213-22308a14b77c&submissionId=6194d587-2e4f-cba7-e476-e1dfe4852be2">HTML</a></li>
+<li><a href="https://sonubabut.github.io/digitalanimation/projectcss.html">CSS</a></li>
+<li><a href="#">JS</a></li>
+</ul>
+
+</li>
+</ul>
+
+
+<li><a href="https://sonubabut.github.io/services/Digitalt3.html">SERVICES</a></li>
+<li><a href="https://t3.eholler.net/">ABOUT US</a></li>
+</ul>
+</div>
+</nav>
+
+
+
+<div class="content">
+<h1><br><br>Never Stop</h1>
+<h2>Exploring the world</h2>
+<h3>Digital is a source of explorer.</h3>
+<a href="https://t3.eholler.net/">Explore</a>
+</div>
+
+
+
+</div>
+
+
+</body>
+</html>

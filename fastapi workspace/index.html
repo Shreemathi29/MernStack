@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+<link rel="stylesheet" href="styleee.css">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    color: #fff;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #05073a,#dc0606ca);
+    padding: 10px;
+
+}
+.container{
+    width: 800px;
+    height: fit-content;
+    
+    padding: 25px 30px;
+    border-radius: 25px;
+    background: linear-gradient(135deg,#dc0606ca,#05073a);
+}
+.container .heading{
+    font-size: 25px;
+    font-weight: 500;
+    
+    font-family: 'Great Vibes', cursive;
+    position: relative;
+    text-align: center;
+    padding: 0 0 20px 0;
+    cursor: pointer;
+    
+}
+.container .heading:hover{
+    transform: scale(1.02);
+    }
+    
+
+.container .heading::before{
+    content:'';
+    position: absolute;
+    height: 3px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(135deg,#71b7e6,#9b5b);
+}
+.container form .card-details{
+    margin-top: 25px;
+    justify-content: space-between;
+   }
+   
+   form .card-details .card-box{
+    width: calc(100% / 2 -20px);
+    margin-bottom: 15px;
+
+}
+
+
+form .Educational .details{
+
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+form .Age .details{
+
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+form .card-details .card-box .details{
+
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.card-details .card-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 20px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+.card-details .card-box input:focus,
+.card-details .card-box input:valid{
+    border-color: #9b59b6;
+
+}
+
+form .card-box label .details {
+    height: 45px;
+    width: 200px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 20px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+
+
+form .circal-form .circal-title{
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    border-bottom: 2px solid;
+}
+form .circal-form .category{
+    margin-top:10px;
+    margin-bottom: 10px;
+    display: inline-block;
+
+}
+
+form .Educational #Educational{
+  
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 20px;
+    display: inline-block;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+form .Age #Age{
+  
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 20px;
+    display: inline-block;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+form .check{
+    text-align: left;
+    font-size: 20px;
+}
+
+
+form .button{
+    text-align: center;
+}
+form .button input{
+    padding: 10px 0;
+    margin-top: 10px;
+    height: 100%;
+    width: 50%;
+    outline: none;
+    color:#fff;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background: linear-gradient(135deg, #05073a,#dc0606ca);
+}
+form .button input:hover{
+    background: linear-gradient(-135deg, #05073a,#dc0606ca); 
+}
+
+
+
+
+@media (max-width:584px){
+    .container{
+        max-width:100%;
+
+    }
+    form .card-details .card-box{
+        margin-bottom: 15px;
+        width: 100%;
+
+    }
+    
+form .circal-form .category{
+    width: 100%;
+
+}
+.container form .card-details{
+    max-height: 300px;
+    overflow: scroll;
+}
+.card-details::-webkit-scrollbar{
+    width: 0;
+}
+}
+
+
+
+
+
+
+
+
+
+</style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="heading">SURVEY  FORM</div>
+        <form action="register" method="post">
+            <div class="card-details">
+                <div class="card-box" >
+                    <span class="details">Name</span>
+                    <input type="text" name="name" placeholder="Enter Your Name"> <br>
+                </div>
+                <div class="card-box">
+                    <span class="details">City</span>
+                    <input type="text" name="city" placeholder="Enter Your City"><br>
+                </div>
+                
+
+                <div class="Age">
+                    <span class="details" >Age</span>
+                
+                <div class="selection">
+                    <select id="Age">
+                        <option value="Diploma"> Select Your Age</option>
+                        
+                        <option value="under20"> Under 20</option>
+                        <option value="20-25"> 20 - 25</option>
+                        <option value="26-45"> 26-45</option>
+                        <option value="Above45"> Above 45</option>
+                      
+                    </select>
+                </div>
+                </div> <br>
+
+
+                <div class="Educational">
+                    <span class="details">
+                        Educational Qualification</span>
+               
+                <div class="selection">
+                    <select id="Educational" name="ueducationalqualification">
+                        <option value="Diploma"> Select</option>
+                        
+                        <option value="B.E"> B.E</option>
+                        <option value="B.D.S"> B.D.S</option>
+                        <option value="M.B.B.S"> M.B.B.S</option>
+                        <option value="B.C.A"> B.C.A</option>
+                        <option value="B.A"> B.A</option>
+                        <option value="B.Sc"> B.Sc</option>
+                        <option value="B.Com"> B.Com</option>
+                        <option value="Diploma"> Diploma</option>
+                        <option value="I.T.I"> I.T.I</option>
+                        <option value="b.Pharm"> B.Pharm</option>
+                        <option value="Others">Others</option>
+                    </select>
+                </div>
+                </div> <br>
+
+                <div class="card-box">
+                    <span class="details">Job</span>
+                    <input type="text" name="ujob" placeholder="Enter Your Job"><br>
+                </div>
+                <div class="card-box">
+                    <span class="details">Passion</span>
+                    <input type="text" name="upassion" placeholder="Enter Your Passion"><br>
+                </div>
+                <div class="card-box">
+                    <span class="details" >Roll-Model</span>
+                    <input type="text" name="urollmodel" placeholder="Enter Your Roll-Model"><br>
+                </div>
+                <div class="card-box">
+                    <span class="details" >Future Goals</span>
+                    <input type="text" name="ufuturegoals" placeholder=""><br>
+                </div>
+                <div class="card-box">
+                    <span class="details">India 2025</span>
+                    <input type="text" name="uindia2025" placeholder="Write your vision"><br>
+                </div>
+                <div class="card-box">
+                    <span class="details">Mobile No</span>
+                    <input type="number" name="umobile" placeholder="Enter Your Mobile Number"><br>
+                </div>
+                <div class="card-box">
+                    <span class="details">Email</span>
+                    <input type="email" name="uemail" placeholder="Enter Your Email"><br>
+                </div>
+                <div class="card-box">
+                    <span class="details">Feedback</span>
+                    <input type="text" name="ufeedback" placeholder="Enter Your Feedback"><br>
+                </div>
+
+                <div class="check">
+                   <input type="checkbox">
+                   Agree to terms and conditions
+            
+                </div>
+                
+                
+                <div class="button">
+                    <input type="submit" value="Submit">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
