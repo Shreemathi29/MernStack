@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#main{
+margin:auto;
+width:500px;
+height:300px;
+border: 1px solid gray;
+display:flex;
+flex-wrap:wrap;
+align-content:center;
+animation-name:super;
+animation-duration:5s;
+animation-delay:2s;
+animation-iteration-count:infinite;
+animation-direction:reverse;
+}
+
+}
+ #main div{
+width:600px;
+height:100px;
+
+@keyframes super{
+from{top:0px;}
+to{top:300px;}
+}
+</style>
+</head>
+<body>
+<h1>The align-content Property</h1><center>
+<div id="main">
+<div style="background-color:black;"></div>
+<div style="background-color:red;"></div>
+<div style="background-color:yellow;"></div>
+</div></center>
+
+<p><b>Note:</b>Internet Explorer 10 and earlier versions do not support the align-content property</p>
+</body>
+</html>
